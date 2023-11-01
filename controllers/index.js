@@ -4,6 +4,7 @@
 // module.exports = {
 //     accountsController
 // }
+
 const authsController = require("./auths");
 
 module.exports = {

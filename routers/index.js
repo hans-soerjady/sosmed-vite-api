@@ -4,6 +4,7 @@
 // module.exports = {
 //     accountsRouter,
 // }
+
 const authsRouter = require("./auths");
 
 module.exports = {
