@@ -4,8 +4,9 @@
 // module.exports = {
 //     accountsController
 // }
-const authsController = require("./auths")
+
+const authsController = require("./auths");
 
 module.exports = {
-    authsController
-}
+  authsController,
+};

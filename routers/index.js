@@ -4,8 +4,9 @@
 // module.exports = {
 //     accountsRouter,
 // }
-const authsRouter = require("./auths")
+
+const authsRouter = require("./auths");
 
 module.exports = {
-    authsRouter,
-}
+  authsRouter,
+};
