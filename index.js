@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
 })
 
 // DEFINE ROUTER
+const { authsRouter } = require("./routers")
+app.use("/account", authsRouter)
 
 app.listen(PORT, () => {
     console.log("API RUNNING", PORT);
