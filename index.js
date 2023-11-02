@@ -12,7 +12,9 @@ app.get("/", (req, res) => {
 });
 
 // DEFINE ROUTER
+const { tweetsRouter } = require("./routers");
 const { authsRouter } = require("./routers");
+app.use("/tweet", tweetsRouter)
 app.use("/auths", authsRouter);
 
 app.listen(PORT, () => {
