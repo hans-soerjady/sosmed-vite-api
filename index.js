@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
 })
 
 // DEFINE ROUTER
+const { tweetsRouter } = require("./routers");
+app.use("/tweet", tweetsRouter)
 
 app.listen(PORT, () => {
     console.log("API RUNNING", PORT);
