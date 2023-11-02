@@ -5,8 +5,10 @@
 //     accountsRouter,
 // }
 
+const authsRouter = require("./auths");
 const tweetsRouter = require("./tweets");
 
 module.exports = {
-    tweetsRouter,
-}
+      tweetsRouter,
+  authsRouter,
+};
